@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Projects - Josh Skipp</title>
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <style>
+        canvas {
+            margin: 2rem -10rem;
+            padding: 0.2rem;
+            background-color: black;
+            border-radius: 0.5rem;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+    <header>
+        <div class="top-container">
+            <div class="logo">
+                <img src="/styles/img/joystick.png" />
+            </div>
+            <div class="console">
+                <h1 id="welcomeText">Sample JavaScript Game - Kings and Pigs.</h1>
+                <span class=teletext>There is not much to say at the moment, but when I make games that are not embarrassing, I'll chuck them here.</span>
+            </div>
+        </div>
+
+        <nav class="top-menu">
+            <ul class="top-menu">
+                <li class=""><a href="/">Home</a></li>
+                <li class=""><a href="/games.html">Game Projects</a></li>
+                <li class="dropdown" class="">
+                    <a href="#">Links</a>
+                    <div class="dropdown-content">
+                        <a href="http://www.github.com/joshskipp">GitHub</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    
+    <main>
+
+
+        <div class="main-breadcrumb">
+            <a href="/">Home</a> 
+            > 
+            <a href="/games.html">Game Projects</a> 
+            >
+            Sample - Kings and Pigs
+        </div>
+
+        <canvas></canvas>
+
+        <section class="accent">
+            <span class="title">Disclaimer</span>
+            <p>Chris Course. (2022, September 28). <em>Multi-room Platformer Game Tutorial with JavaScript and HTML Canvas</em> [Video]. YouTube. <a href="youtube.com/watch?v=Lcdc2v-9PjA">youtube.com/watch?v=Lcdc2v-9PjA</a></p>
+            <p>Kings and Pigs created by Chirs Course as a game tutorial with JavaScript and HTML Canvas. This is purley to test how hosting a javascrip and HTML game would look like. Presented <a href="https://github.com/chriscourses/kings-and-pigs/tree/main/js/data">unmodified from GitHub</a>.</p>
+        </section>
+
+        
+    </main>
+
+    
+            
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+        integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/utils.js"></script>
+    <script src="js/data/collisions.js"></script>
+    <script src="js/classes/CollisionBlock.js"></script>
+    <script src="js/classes/Sprite.js"></script>
+    <script src="js/classes/Player.js"></script>
+    <script src="js/eventListeners.js"></script>
+    <script src="index.js"></script>  
+
+    <footer>
+        <p>Copyright © 2022 - 2023 Josh Skipp.</p>
+        <p><a href="http://www.github.com/joshskipp">GitHub</a></p>
+        
+    </footer>
+    </div>
+
+</body>
+</html>
